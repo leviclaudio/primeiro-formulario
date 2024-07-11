@@ -102,9 +102,14 @@
     outline: none;
     border: none;
     background-color: var(--cor03);
-    box-shadow: 0px 0px 10px 1px var(--cor03); 
+    box-shadow: 0px 0px 6px 1px var(--cor03); 
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
+}
+.input-btn button:hover{
+    color: #F06414;
+    background-color: #fff;
 }
 
 @media screen and  (max-width: 1326px){
